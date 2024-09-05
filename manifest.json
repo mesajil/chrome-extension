@@ -3,9 +3,18 @@
   "name": "Chrome Extension",
   "version": "1.0.0",
   "description": "Chrome extension practice",
-  "icons": {
-    "32": "images/32/4.png",
-    "48": "images/48/10.png",
-    "128": "images/128/15.png"
-  }
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "images/32/4.png",
+      "48": "images/48/10.png",
+      "128": "images/128/15.png"
+    }
+  },
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
+  },
+  "permissions": ["scripting", "activeTab"],
+  "host_permissions": ["http://*/*", "https://*/*"]
 }
