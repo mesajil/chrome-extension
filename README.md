@@ -49,10 +49,9 @@ Este proyecto es una **Chrome Extension** de práctica diseñada para introducir
 
 ## Documentación
 
-Toda la información relevante sobre el desarrollo de esta extensión y otros conceptos relacionados con la creación de **Chrome Extensions** se encuentra en la carpeta `docs/` del repositorio. Aquí encontrarás guías, tutoriales y referencias útiles para expandir y mejorar tus habilidades en el desarrollo de extensiones para Chrome.
+Aquí encontrarás guías, tutoriales y referencias útiles para expandir y mejorar tus habilidades en el desarrollo de extensiones para Chrome.
 
-- [Docs](https://github.com/mesajil/chrome-extension/tree/main/docs)
-  - [Tabs](https://github.com/mesajil/chrome-extension/blob/main/docs/tabs.md)
+- [Tabs](https://github.com/mesajil/chrome-extension/blob/main/docs/tabs.md)
 
 <!-- ## Contribuciones
 
