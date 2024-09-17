@@ -1,5 +1,8 @@
+// Show a Hello World Alert
 async function sayHello() {
-  let [tab] = await chrome.tabs.query({ active: true });
+  console.log("You clicked on Hello!");
+  let tabs = await chrome.tabs.query({ active: true, currentWindow: true });
+  let [tab] = tabs;
   chrome.scripting.executeScript({
     target: { tabId: tab.id },
     func: () => {
